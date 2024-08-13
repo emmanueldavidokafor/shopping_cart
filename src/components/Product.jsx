@@ -4,8 +4,8 @@ export default function Product({
   title,
   price,
   description,
-  onAddToCart,
 }) {
+  
   return (
     <article className="product">
       <img src={image} alt={title} />
